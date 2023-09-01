@@ -54,7 +54,7 @@ const HomeAdmin = () => {
                                     <a href="/#" className="prev_link icon-right">Главная</a>
                                     <span className="page_name">Администрирование</span>
                                 </div>
-                                <a href="/#" className="logout_btn">Выйти</a>
+                                <a href="/login" className="logout_btn">Выйти</a>
                             </div>
                             <div className="page_title">Администрирование</div>
                             <div className="search_block">
