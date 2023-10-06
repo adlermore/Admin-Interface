@@ -4,6 +4,9 @@ import HomeAdmin from './pages/HomeAdmin';
 import AddUser from './pages/AddUser';
 import ProfilePage from './pages/ProfilePage';
 
+// import Spline from '@splinetool/react-spline';
+
+
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -16,6 +19,7 @@ function App() {
         <Route path="/addUser" element={<AddUser />} /> 
         <Route path="/profilePage" element={<ProfilePage />} /> 
       </Routes>
+      {/* <Spline scene="https://prod.spline.design/m-S0gsBXxCpZHUPE/scene.splinecode" /> */}
     </div>
   );
 }
